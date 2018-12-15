@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const URI = 'mongodb://localhost/mevn-project'; //Si no existe, crea la base de datos
+const URI = 'mongodb://localhost/cursos-api'; //Si no existe, crea la base de datos
 
 mongoose.connect(URI)
     .then(db => console.log('Database connected'))

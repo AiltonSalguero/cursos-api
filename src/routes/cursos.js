@@ -7,7 +7,7 @@ const Curso = require('../models/Curso');
 router.get('/', async(req, res) => { //Se usa async cuando una consulta puede tomar algo de tiempo
     const cursos = await Curso.find(); //Con await se declara dicha consulta
     console.log(cursos);
-    res.json(cursos); //.find busca todos los documentos que tenemos en mongodb 
+    res.json(cursos); //.find Userbusca todos los documentos que tenemos en mongodb 
 
 }); //.get Obtiene los datos de la base de datos
 

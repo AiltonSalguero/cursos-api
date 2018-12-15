@@ -1,14 +1,9 @@
 class User {
-    constructor(firstname = '', lastname = '', gender = '', email = '', phone = 0, password = '', confirmpassword = '', job = '', tardiness = 0) {
-        this.firstname = firstname;
-        this.lastname = lastname;
-        this.gender = gender;
-        this.email = email;
-        this.phone = phone;
-        this.password = password;
-        this.confirmpassword = confirmpassword;
-        this.job = job;
-        this.tardiness = tardiness;
+    constructor(codigo = '', lastname = '', gender = '', email = '', phone = 0, password = '', confirmpassword = '', job = '', tardiness = 0) {
+        this.codigo = codigo;
+        this.nombre = lastname;
+        this.seccion = gender;
+        this.inicio = email;
     }
 }
 
